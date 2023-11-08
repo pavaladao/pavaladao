@@ -96,13 +96,6 @@ class Scanner:
         
         coluna = self.pertence_alfabeto(caractere,estado_corrente)
         
-        # print("----------------------------------------")
-        # print("coluna",coluna)
-        # print("estado",estado_corrente)
-        # print("caractere",caractere)
-        # print("pertence",pertence)
-        # print("----------------------------------------")
-        # print("tipo na tabela",type(self.tabela_estados[coluna][estado_corrente]))
         if coluna: 
 
             if self.tabela_estados[coluna][estado_corrente] == -1:
